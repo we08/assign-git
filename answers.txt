@@ -1,0 +1,24 @@
+What is a gitignore file and what should it include for a Java project?
+
+A. The gitigmore file is used to list the files that are not to be saved to
+source control.  For Java it includes the log files, compiled files like jar
+files, class files, and temporary files, and anything that the developer deems
+unnecessary.
+
+
+What does fast-forward in Git mean?
+
+A. Fast forward is to include everything up to the last committed file that is in merge.
+
+
+Why should you have different branches?
+
+A. Different branches keep different development efforts in their own place without 
+having code interfere with the other effort.
+
+
+In a project how many remote Git repositories do you usually have? 
+
+A. As a general rule, one repository is needed for one product. Version control of the product
+cam be maintained in the repository. If a product is used in another product as a
+library, then it would multiple repositories.
